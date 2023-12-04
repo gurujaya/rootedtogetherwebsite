@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-        <nav>
+        <nav className='float: right;'>
             <Link href="/">Home</Link>
             <Link href="/team">Our Team</Link>
             <Link href="/mission">Our Mission</Link>

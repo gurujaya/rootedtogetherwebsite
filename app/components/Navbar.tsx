@@ -4,12 +4,11 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-      <nav>
-        <Link href="/" className="button">Support Our Cause</Link>
-        <Link href="/contact" className="button">Contact Us</Link>
-        <Link href="/mission" className="button">Our Mission</Link>
-        <Link href="/team" className="button">Our Team</Link>
-        <Link href="/" className="button">Home</Link>
-      </nav>
+        <nav>
+            <Link href="/">Home</Link>
+            <Link href="/team">Our Team</Link>
+            <Link href="/mission">Our Mission</Link>
+            <Link href="/contact">Contact Us</Link>
+        </nav>
   )
 }
